@@ -1,0 +1,16 @@
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.csproj.AssemblyReference.cache
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.AssemblyInfoInputs.cache
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.AssemblyInfo.cs
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.csproj.CoreCompileInputs.cache
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.dll
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\ref\advanced-concepts-2.dll
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.pdb
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\advanced-concepts-2.exe
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\advanced-concepts-2.deps.json
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\advanced-concepts-2.runtimeconfig.json
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\advanced-concepts-2.runtimeconfig.dev.json
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\advanced-concepts-2.dll
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\ref\advanced-concepts-2.dll
+C:\Users\LTIUser\advanced-concepts-2\bin\Debug\net5.0\advanced-concepts-2.pdb
+C:\Users\LTIUser\advanced-concepts-2\obj\Debug\net5.0\advanced-concepts-2.genruntimeconfig.cache
