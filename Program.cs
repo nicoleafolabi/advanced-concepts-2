@@ -27,6 +27,7 @@ namespace advanced_concepts_2
             Console.WriteLine("Select another coloumn of numbers you would like your input from. A, B, or C");
             var coloumn2 = Console.ReadLine();
             var results = 0;
+
             foreach (var generic in generics)
             {
                 if (coloumn1 == "A")
@@ -43,41 +44,39 @@ namespace advanced_concepts_2
                     {
                         results = fnDict[function](generic.A, generic.C);
                     }
-
-                    else if (coloumn1 == "B")
+                }
+                else if (coloumn1 == "B")
+                {
+                    if (coloumn2 == "A")
                     {
-                        if (coloumn2 == "A")
-                        {
-                            results = fnDict[function](generic.B, generic.A);
-                        }
-                        if (coloumn2 == "B")
-                        {
-                            results = fnDict[function](generic.B, generic.B);
-                        }
-                        if (coloumn2 == "C")
-                        {
-                            results = fnDict[function](generic.B, generic.C);
-                        }
+                        results = fnDict[function](generic.B, generic.A);
                     }
-                    else if (coloumn1 == "C")
+                    if (coloumn2 == "B")
                     {
-                        if (coloumn2 == "A")
-                        {
-                            results = fnDict[function](generic.C, generic.A);
-                        }
-                        if (coloumn2 == "B")
-                        {
-                            results = fnDict[function](generic.C, generic.B);
-                        }
-                        if (coloumn2 == "C")
-                        {
-                            results = fnDict[function](generic.C, generic.C);
-                        }
-
+                        results = fnDict[function](generic.B, generic.B);
+                    }
+                    if (coloumn2 == "C")
+                    {
+                        results = fnDict[function](generic.B, generic.C);
+                    }
+                }
+                else if (coloumn1 == "C")
+                {
+                    if (coloumn2 == "A")
+                    {
+                        results = fnDict[function](generic.C, generic.A);
+                    }
+                    if (coloumn2 == "B")
+                    {
+                        results = fnDict[function](generic.C, generic.B);
+                    }
+                    if (coloumn2 == "C")
+                    {
+                        results = fnDict[function](generic.C, generic.C);
                     }
                 }
                 Console.WriteLine(results);
-                File.AppendAllText("./generic.json", $"{results}\n");
+
             }
         }
     }
